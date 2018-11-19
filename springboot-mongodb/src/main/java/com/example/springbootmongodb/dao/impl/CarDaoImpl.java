@@ -25,6 +25,4 @@ public class CarDaoImpl implements CarDao {
     public List<Car> findAll() {
         return carMongoTemplate.findAll(Car.class);
     }
-
-    public void finsssd(){}
 }
